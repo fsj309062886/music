@@ -25,7 +25,6 @@ function getData(page) {
             },
         })
         .done(function(res) {
-            // console.log(res.data);
             Music.activePage = page;
             Music.totalCount = res.totalCount;
             Music.totalPages = res.pageCount;
