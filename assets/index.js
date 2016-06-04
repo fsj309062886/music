@@ -17,7 +17,7 @@ function getData(page) {
     $.ajax({
             url: 'http://search.dongting.com/song/search',
             type: 'GET',
-            dataType: 'jsonp',   //在json对象外面包一个callback对调函数，跨域请求
+            dataType: 'jsonp',   
             data: {
                 q: query,
                 page: page,
